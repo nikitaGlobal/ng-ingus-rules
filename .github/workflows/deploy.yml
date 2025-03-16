@@ -18,4 +18,5 @@ jobs:
         username: ${{ secrets.SFTP_USER }}
         password: ${{ secrets.SFTP_PASS }}
         local-dir: ./
-        server-dir: ./
+        dangerous-clean-slate: false
+        server-dir: ./rules/
